@@ -5,19 +5,23 @@ html {
 }
 
 body {
+    display: flex;
+    justify-content: center;
+}
+
+.main-container {
     margin: 5px;
     padding: 5px;
     display: grid;
     grid-template-columns: 300px 1fr;
+    max-width: 1500px;
 }
 
 .left {
-    /* background-color: darkgray; */
 }
 
 .info-bar {
-    background-color: gray;
-    min-height: calc(100vh - 20px);
+    min-height: calc(100% - 20px);
     position: fixed;
     width: 300px;
     display: flex;
@@ -68,6 +72,7 @@ body {
     background-color: rgb(39, 39, 39);
     color: white;
     flex: 1;
+    max-height: 1000px;
 }
 
 .info-body .tools {
@@ -128,7 +133,7 @@ body {
 }
 
 .header {
-    margin: 20px;
+    margin: 0px 20px 20px 20px;
     position: relative;
 }
 
@@ -169,11 +174,15 @@ body {
 .project-card {
     background-color: rgba(46, 46, 46, 0.849);
     color: white;
-    /* border: 1px solid white;
-    border-radius: 5px; */
     display: grid;
     grid-template-columns: 300px 1fr;
     justify-items: center;
+}
+
+.project-img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .project-card img {
@@ -182,7 +191,8 @@ body {
 }
 
 .project-info {
-    padding: 10px;
+    padding: 20px;
+    max-width: 940px;
 }
 
 .project-tech-stack {
