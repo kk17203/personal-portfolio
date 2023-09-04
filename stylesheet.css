@@ -74,7 +74,7 @@ body {
     padding: 15px 10px 0px 10px;
     font-size: 1.4rem;
     text-align: center;
-    text-decoration: underline;
+    /* text-decoration: underline; */
     color: #f5a64b;
 }
 
@@ -127,10 +127,6 @@ body {
     max-width: 1500px;
 }
 
-.works {
-    background-color: rgb(63, 240, 181);
-}
-
 .header {
     margin: 20px;
     position: relative;
@@ -153,4 +149,13 @@ body {
     padding: 10px;
     font-size: 1.6rem;
     text-align: center;
+}
+
+.works {
+    margin: 20px;
+}
+
+.works span {
+    color: white;
+    font-size: 1.5rem;
 }
