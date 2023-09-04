@@ -92,6 +92,15 @@ body {
     padding: 20px;
 }
 
+.tt-icons img {
+    width: 50px;
+}
+
+.tt-icons .linux {
+    background-color: rgba(255, 255, 255, 0.527);
+    border-radius: 30%;
+}
+
 .info-body img {
     padding-bottom: 5px;
 }
@@ -127,7 +136,7 @@ body {
     position: relative;
 }
 
-.header-img img {
+.header-container img {
     object-fit: cover;
     max-height: 300px;
     width: 100%;
