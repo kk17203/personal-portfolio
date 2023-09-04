@@ -5,4 +5,4 @@ import renderProjects from "./projectRender";
 console.log(projectData[0].description);
 console.log(projectData[0].alt);
 
-renderProjects();
+renderProjects(projectData.length);

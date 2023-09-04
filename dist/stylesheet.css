@@ -171,14 +171,24 @@ body {
     color: white;
     /* border: 1px solid white;
     border-radius: 5px; */
-    display: flex;
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    justify-items: center;
 }
 
 .project-card img {
     max-width: 300px;
-    height: auto;
+    max-height: 300px;
 }
 
 .project-info {
     padding: 10px;
+}
+
+.project-tech-stack {
+    font-size: 1.2rem;
+}
+
+.project-tech-stack span {
+    color: #f5a64b;
 }
