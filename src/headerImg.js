@@ -10,3 +10,5 @@ const headerImages = [
 const randomIndex = Math.floor(Math.random() * headerImages.length);
 
 headerImg.src = headerImages[randomIndex];
+
+export default headerImg;
