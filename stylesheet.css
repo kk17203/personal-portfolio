@@ -14,7 +14,7 @@ body {
     padding: 5px;
     display: grid;
     grid-template-columns: 300px 1fr;
-    max-width: 1500px;
+    max-width: 1200px;
 }
 
 .left {
@@ -72,7 +72,7 @@ body {
     background-color: rgb(39, 39, 39);
     color: white;
     flex: 1;
-    max-height: 1000px;
+    max-height: 900px;
 }
 
 .info-body .tools {
@@ -154,6 +154,7 @@ body {
     padding: 10px;
     font-size: 1.6rem;
     text-align: center;
+    width: 80%;
 }
 
 .works {
@@ -163,6 +164,7 @@ body {
 .works span {
     color: white;
     font-size: 1.5rem;
+    font-weight: 600;
 }
 
 .projects {
@@ -210,8 +212,11 @@ body {
 .project-links a {
     color: white;
     text-decoration: none;
-    padding: 10px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+    font-size: 1.2rem;
+    padding: 10px 20px 10px 20px;
     border: 1px solid #f5a64b;
-    border-radius: 5px;
+    border-radius: 15px;
     margin-right: 15px;
 }
