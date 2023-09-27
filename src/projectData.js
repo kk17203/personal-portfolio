@@ -1,5 +1,15 @@
 export const projectData = [
     {
+        name: "Matrix Todo List",
+        alt: "A screenshot of the Events page.",
+        img: "images/matrix-todo.png",
+        description:
+            "Matrix Todo List is a simple todo list using React to display current and completed todo items. It takes advantage of the features React has to offer including useState, useEffect, Props, PropTypes, etc. Making sure to separate components into their own files.",
+        techStack: "HTML, CSS, JavaScript, React",
+        live: "https://matrix-react-todo17203.netlify.app/",
+        code: "https://github.com/kk17203/react-todo",
+    },
+    {
         name: "CV Application",
         alt: "A screenshot of the Events page.",
         img: "images/CV-App.png",
