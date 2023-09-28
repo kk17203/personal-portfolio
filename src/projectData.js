@@ -20,16 +20,16 @@ export const projectData = [
         code: "https://github.com/kk17203/CV-Application",
     },
 
-    {
-        name: "Poco Cycling Events",
-        alt: "A screenshot of the Events page.",
-        img: "images/events.png",
-        description:
-            "Poco Cycling Events is a webpage that allows users to view, create, and delete group rides and runs. It allows users to see all events or sort events by category. ",
-        techStack: "HTML, CSS, JavaScript",
-        live: "https://kk17203.github.io/events/",
-        code: "https://github.com/kk17203/events",
-    },
+    // {
+    //     name: "Poco Cycling Events",
+    //     alt: "A screenshot of the Events page.",
+    //     img: "images/events.png",
+    //     description:
+    //         "Poco Cycling Events is a webpage that allows users to view, create, and delete group rides and runs. It allows users to see all events or sort events by category. ",
+    //     techStack: "HTML, CSS, JavaScript",
+    //     live: "https://kk17203.github.io/events/",
+    //     code: "https://github.com/kk17203/events",
+    // },
     {
         name: "Weather App",
         alt: "A screenshot of the Weather App page.",
