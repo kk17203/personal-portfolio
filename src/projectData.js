@@ -14,7 +14,7 @@ export const projectData = [
         alt: "A screenshot of the Events page.",
         img: "images/CV-App.png",
         description:
-            "CV Application is a website built to allow the user to input information into a series of forms to make their own personalized CV. This application showcases knowledge of React 'useState' and 'props' features. The Styling of this application is still in development.",
+            "CV Application is a website built to allow the user to input information into a series of forms to make their own personalized CV. This application showcases knowledge of React 'useState' and 'props' features.",
         techStack: "HTML, CSS, JavaScript, React",
         live: "https://cv-application-945.netlify.app/",
         code: "https://github.com/kk17203/CV-Application",
