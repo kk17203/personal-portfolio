@@ -5,7 +5,7 @@ export const projectData = [
         img: "images/matrix-todo.png",
         description:
             "Matrix Todo List is a simple todo list using React to display current and completed todo items. It takes advantage of the features React has to offer including useState, useEffect, Props, PropTypes, etc. Making sure to separate components into their own files.",
-        techStack: "HTML, CSS, JavaScript, React",
+        techStack: "HTML, CSS, React",
         live: "https://matrix-react-todo17203.netlify.app/",
         code: "https://github.com/kk17203/react-todo",
     },
@@ -15,7 +15,7 @@ export const projectData = [
         img: "images/CV-App.png",
         description:
             "CV Application is a website built to allow the user to input information into a series of forms to make their own personalized CV. This application showcases knowledge of React 'useState' and 'props' features.",
-        techStack: "HTML, CSS, JavaScript, React",
+        techStack: "HTML, CSS, React",
         live: "https://cv-application-945.netlify.app/",
         code: "https://github.com/kk17203/CV-Application",
     },
