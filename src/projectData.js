@@ -1,7 +1,17 @@
 export const projectData = [
     {
+        name: "Shopping Cart",
+        alt: "A screenshot of the Shopping Cart page",
+        description:
+            "This is a shopping cart website that allows users to browse products fectched from an API and add / remove them from their cart. It uses React to display the items and React Router to navigate between pages.",
+        img: "images/shopping-cart-1.png",
+        techStack: "HTML, CSS, React",
+        live: "https://shopping-app-17203.netlify.app/",
+        code: "https://github.com/kk17203/shopping-app",
+    },
+    {
         name: "Matrix Todo List",
-        alt: "A screenshot of the Events page.",
+        alt: "A screenshot of the Todo app.",
         img: "images/matrix-todo.png",
         description:
             "Matrix Todo List is a simple todo list using React to display current and completed todo items. It takes advantage of the features React has to offer including useState, useEffect, Props, PropTypes, etc. Making sure to separate components into their own files.",
@@ -11,7 +21,7 @@ export const projectData = [
     },
     {
         name: "CV Application",
-        alt: "A screenshot of the Events page.",
+        alt: "A screenshot of the CV Application page.",
         img: "images/CV-App.png",
         description:
             "CV Application is a website built to allow the user to input information into a series of forms to make their own personalized CV. This application showcases knowledge of React 'useState' and 'props' features.",
@@ -36,7 +46,7 @@ export const projectData = [
         img: "images/weather-app.png",
         description:
             "This app shows the current weather of a city. It uses the OpenWeather API to fetch the weather data. The app changes the background image based on the current weather in the area.",
-        techStack: "HTML, CSS, JavaScript, OpenWeather API",
+        techStack: "HTML, CSS, JavaScript",
         live: "https://kk17203.github.io/weather-page/",
         code: "https://github.com/kk17203/weather-page",
     },
