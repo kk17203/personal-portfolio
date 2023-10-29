@@ -170,6 +170,19 @@ body {
     font-weight: 600;
 }
 
+.works-header {
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-between;
+    align-items: center;
+}
+
+.works-header span:nth-child(2) {
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: lightgray;
+}
+
 .projects {
     display: grid;
     gap: 30px;
