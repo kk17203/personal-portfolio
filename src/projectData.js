@@ -1,5 +1,16 @@
 export const projectData = [
     {
+        name: "PoCo Cycling Social Page",
+        alt: "A screenshot of the PoCo Cycling Page page",
+        description:
+            "PoCo Cycling page is a social media page for the organization, Polk County Cycling Club. It allows users to sign-up, post, reply, like, upload images, and more!",
+        img: "images/poco-screenshot-2.png",
+        techStack:
+            "JavaScript, Node.js, Express, MongoDB, Google Cloud, HTML, CSS",
+        live: "https://poco-cycling.up.railway.app/",
+        code: "https://github.com/kk17203/social-page",
+    },
+    {
         name: "Shopping Cart",
         alt: "A screenshot of the Shopping Cart page",
         description:
