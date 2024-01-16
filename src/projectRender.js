@@ -8,7 +8,9 @@ function renderProjects(num) {
         projectCard.setAttribute("data-index", i);
         projectCard.innerHTML = `
         <div class="project-img-container">
+        <a href="${project.live}" target="_blank" rel="noopener nofreferrer">
             <img src="${project.img}" alt="${project.alt}">
+            </a>
         </div>
         <div class="project-info">
             <h2 class="project-name">${project.name}</h2>
