@@ -122,8 +122,12 @@ body {
     justify-content: space-evenly;
 }
 
-.info-footer i {
+.info-footer i:hover {
     color: #ec840e;
+}
+
+.info-footer i {
+    color: rgba(151, 151, 151, 0.589);
 }
 
 .right {
@@ -209,6 +213,11 @@ body {
     max-height: 300px;
     border-radius: 5px;
     margin: 10px 15px;
+}
+
+.project-card img:hover {
+    border: 3px solid #f5a64b;
+    cursor: pointer;
 }
 
 .project-info {
