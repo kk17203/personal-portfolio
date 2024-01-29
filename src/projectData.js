@@ -3,12 +3,23 @@ export const projectData = [
         name: "PoCo Cycling Social Page",
         alt: "A screenshot of the PoCo Cycling Page page",
         description:
-            "PoCo Cycling page is a social media page for the organization, Polk County Cycling Club. It allows users to sign-up, post, reply, like, upload images, and more!",
+            "Welcome to PoCo Cycling, a personalized project crafted to demonstrate my skills and expertise in web development.<br><br> Designed as a showcase for potential employers, it offers a glimpse into my capabilities in creating interactive and engaging online platforms. While the frontend is optimized for desktop viewing and simplified for demonstration purposes, the backend demonstrates the system's resilience and scalability.<br><br> The website exhibits an array of backend features, such as user authentication, database management, and seamless integration with Google Cloud Storage for image uploads, all enhancing the user experience.",
         img: "images/poco-screenshot-2.png",
         techStack:
             "JavaScript, Node.js, Express, MongoDB, Google Cloud, HTML, CSS",
         live: "https://poco-cycling.up.railway.app/",
         code: "https://github.com/kk17203/social-page",
+    },
+    {
+        name: "Simply Kaitie",
+        alt: "A screenshot of the Simpy Kaitie page",
+        description:
+            "Introducing Simply Kaitie—a dynamic blog website focused on delivering a seamless experience across mobile devices. Integrating cutting-edge technologies, it's crafted using a stack of HTML, CSS, and JavaScript for front-end elegance, and powered by Node.js, Express, and MongoDB for robust back-end functionality. Additionally, leveraging Google Cloud Storage for seamless data management and Railway and Cloudflare for lightning-fast deployment.<br><br>Behind the scenes, Simply Kaitie boasts exclusive administrator-only pages, empowering the owner with effortless control to create, edit, and delete blog posts. Furthermore, comprehensive analytics tools offer valuable insights into website performance, while seamless integration allows for efficient management of email subscribers. <br><br> Explore Simply Kaitie today and witness the convergence of creativity and innovation in web development.",
+        img: "images/simplykaitie-screenshot.png",
+        techStack:
+            "HTML, CSS, JavaScript, Node.Js, Express, MongoDB, Google Cloud, Railway, Cloudflare",
+        live: "https://simplykaitie.com/",
+        code: "https://github.com/kk17203/blog",
     },
     {
         name: "Shopping Cart",
@@ -51,16 +62,16 @@ export const projectData = [
     //     live: "https://kk17203.github.io/events/",
     //     code: "https://github.com/kk17203/events",
     // },
-    {
-        name: "Weather App",
-        alt: "A screenshot of the Weather App page.",
-        img: "images/weather-app.png",
-        description:
-            "This app shows the current weather of a city. It uses the OpenWeather API to fetch the weather data. The app changes the background image based on the current weather in the area.",
-        techStack: "HTML, CSS, JavaScript",
-        live: "https://kk17203.github.io/weather-page/",
-        code: "https://github.com/kk17203/weather-page",
-    },
+    // {
+    //     name: "Weather App",
+    //     alt: "A screenshot of the Weather App page.",
+    //     img: "images/weather-app.png",
+    //     description:
+    //         "This app shows the current weather of a city. It uses the OpenWeather API to fetch the weather data. The app changes the background image based on the current weather in the area.",
+    //     techStack: "HTML, CSS, JavaScript",
+    //     live: "https://kk17203.github.io/weather-page/",
+    //     code: "https://github.com/kk17203/weather-page",
+    // },
     {
         name: "Tic-Tac-Toe Game",
         alt: "A screenshot of the Tic-Tac-Toe game.",
